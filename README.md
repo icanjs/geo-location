@@ -34,7 +34,7 @@ Using CanJS's built-in support for StealJS, you can now import the module direct
 - **watch** - a boolean value that, if enabled, causes the `currentLocation` attribute to continuously return location data. If set to false, it will cancel the current watch.  Watch can be bound to an attribute in a parent component to dynamically enable/disable the geolocation feed:
 ```
 <geo-location {^current-location}="location"
-  {&watch}="isWatchEnabled">
+  {^watch}="isWatchEnabled">
 </geo-location>
 ```
 - **locations** - A live-bindable list of all location objects in the order they arrived.
