@@ -1,6 +1,6 @@
 {
   "name": "geo-location",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CanJS component that produces live-bindable geolocation data.",
   "main": "src/geo-location.js",
   "scripts": {
